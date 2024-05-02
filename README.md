@@ -1,26 +1,30 @@
-# Must (To) Do Today React App
+# Full Stack Todo Application
 
-A Simple to do react app to add and check off things to do for the day.
+This repository contains a full stack Todo application with React on the frontend and Node.js/Express on the backend. The frontend is served from a separate repository which can be found [here](https://github.com/arttuheinila/todo-frontend-repo). The backend, handling API requests, is maintained in another repository available [here](https://github.com/arttuheinila/todo-backend-repo).
+Live site [here](https://arttu.info/todo)
 
-React handles the state changes of the app. Being a front-end app it uses local storage to save the items.
+## Overview
 
-Additional features are still being added so the app is not yet in final form.
+The application allows users to manage their daily tasks effectively with features like adding, deleting, and marking tasks as complete.
 
-## Installation ##
+### Technologies
 
-The single page Front End -application uses react so you do need to install it with node. 
+- **Frontend:** React, HTML, CSS
+- **Backend:** Node.js, Express, PostgreSQL
 
-To install the dependencies go to the project location and type
+## Local Development
 
-	npm install
-	npm run start
+To run this application locally, you need to clone both the frontend and backend repositories, set up the environment variables, and start both servers.
 
-## Use ##
+### Clone the Repositories
 
-Press Enter to create a new item
-Check off current item by checking off the box, which moves the completed task as the final item
-Move between items with tab or clicking with mouse
-
-The app uses local storage so it will remember your items from session to session with the same browser. Remember that clearing local storage will permanently delete all the items. 
-
-Live site here arttu.info/todo/
+```bash
+git clone https://github.com/yourusername/todo-frontend.git
+git clone https://github.com/yourusername/todo-backend.git
+Environment Setup
+Refer to the READMEs in each repository for detailed instructions on setting up and running each part of the application:
+    • Frontend README
+    • Backend README
+Deployment
+This application is deployed on Heroku. The frontend is hosted at https://arttu.info/todo and the backend at https://powerful-reef-86902.herokuapp.com.
+For more details on deployment, check the README files in the respective repositories.
